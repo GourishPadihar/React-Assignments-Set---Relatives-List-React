@@ -7,6 +7,10 @@ class App extends Component {
         return(
             <div id="main">
                {/* Do not remove the main div */}
+            <ol key="relativeList">
+            <li key="relativeListItem1">first<li>
+            <li key="relativeListItem2">second<li>
+            </ol>
             </div>
         )
     }
